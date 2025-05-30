@@ -42,8 +42,6 @@ docker run -d --name homeassistant --network srv-network -p 8123:8123 -v ${PWD}\
 
 ## Commandes powershell d'installation de pi-hole
 
-### Configuration de mon routeur pour utiliser l'IP de mon laptop : 192.168.68.100/22 comme serveur DNS principal et 8.8.8.8 secondaire comme failover.
-
   mkdir pi-hole
   
   cd .\pi-hole\
@@ -52,7 +50,11 @@ docker run -d --name homeassistant --network srv-network -p 8123:8123 -v ${PWD}\
 
 ![Installation de pi-hole](https://github.com/trolul/Homelab/blob/main/pi-hole.png)
 
-## Configuration DNS de pihole et nginx
+## Configuration du DNS avec pi-hole et Nginx Proxy Manager
+
+### DNS routeur : Configurer mon routeur pour utiliser l'IP de mon laptop statique : 192.168.68.100/22 comme serveur DNS principal et 8.8.8.8 secondaire comme failover.
+
+### Configuration de nom de domaine local et permet l'accès à tout mon LAN d'accéder aux services conteneurisés.
 
 ![Configuration de pihole et nginx](https://github.com/trolul/Homelab/blob/main/nginx%20et%20pihole.png)
 
