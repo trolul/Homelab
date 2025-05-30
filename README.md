@@ -1,8 +1,8 @@
 # Homelab
 
-## J'ai transformer mon laptop Windows 11 en serveur Docker Desktop.
+### J'ai transformé mon laptop Windows 11 en serveur Docker Desktop.
 
-### Commandes powershell d'installation de #Nessus
+## Commandes powershell d'installation de Nessus
 
   mkdir nessus
   
@@ -12,7 +12,7 @@
   
    ![Installation de Nessus](https://github.com/trolul/Homelab/blob/main/installation%20de%20nessus%20sur%20docker%20desktop.png)
 
-### Commandes powershell d'installation de Nginx Proxy Manager
+## Commandes powershell d'installation de Nginx Proxy Manager
 
   docker network create srv-network
 
@@ -26,7 +26,7 @@ docker run -d --name nginx-proxy-manager --network srv-network -p 8080:8080 -p 8
 
 ![Installation de Nginx Proxy Manager](https://github.com/trolul/Homelab/blob/main/nginx%20proxy%20manager.png)
 
-### Commandes powershell d'installation de home-assitant
+## Commandes powershell d'installation de home-assitant
 
   mkdir home-assitant
   
@@ -36,7 +36,7 @@ docker run -d --name homeassistant --network srv-network -p 8123:8123 -v ${PWD}\
 
 ![Installation de home-assitant](https://github.com/trolul/Homelab/blob/main/home%20assistant.png)
 
-### Commandes powershell d'installation de pi-hole
+## Commandes powershell d'installation de pi-hole
 
   mkdir pi-hole
   
