@@ -42,7 +42,7 @@ docker run -d --name homeassistant --network srv-network -p 8123:8123 -v ${PWD}\
 
 ## Commandes powershell d'installation de pi-hole
 
-###Configuration de mon routeur pour utiliser l'IP de mon laptop : 192.168.68.100/22 comme serveur DNS principal et 8.8.8.8 secondaire comme failover.
+### Configuration de mon routeur pour utiliser l'IP de mon laptop : 192.168.68.100/22 comme serveur DNS principal et 8.8.8.8 secondaire comme failover.
 
   mkdir pi-hole
   
