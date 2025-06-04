@@ -1,6 +1,6 @@
 # Homelab
 
-### J'ai transformé mon laptop Windows 11 en serveur Docker Desktop.
+### J'ai installé Docker Desktop sur mon laptop Windows 11 pour le transformer en serveur.
 
 ## Commandes powershell d'installation de Nessus
 
