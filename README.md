@@ -30,15 +30,15 @@ docker run -d --name nginx-proxy-manager --network srv-network -p 8080:8080 -p 8
 
 ![Installation de Nginx Proxy Manager](https://github.com/trolul/Homelab/blob/main/nginx%20proxy%20manager.png)
 
-## Commandes powershell d'installation de home-assitant
+## Commandes powershell d'installation de Home Assitant
 
-  mkdir home-assitant
+  mkdir Home Assitant
   
-  cd .\home-assitant\
+  cd .\Home Assitant\
 
 docker run -d --name homeassistant --network srv-network -p 8123:8123 -v ${PWD}\config:/config -e TZ=America/New_York --restart unless-stopped homeassistant/home-assistant@sha256:8a99004ff832dbd535e6ac4d141042bc31141ff6a86b4d5bb288b3680fbceac1
 
-![Installation de home-assitant](https://github.com/trolul/Homelab/blob/main/home%20assistant.png)
+![Installation de Home Assitant](https://github.com/trolul/Homelab/blob/main/home%20assistant.png)
 
 ## Commandes powershell d'installation de pi-hole
 
